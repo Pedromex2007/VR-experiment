@@ -1,4 +1,4 @@
-﻿Log file open, 07/28/18 17:31:54
+﻿Log file open, 07/30/18 16:24:10
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,9 +7,9 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: VRExperiment
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1178134228) SRandInit(-1178134228).
+LogInit: Display: RandInit(-229549989) SRandInit(-229549989).
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.384497
+LogStats: Stats thread started at 0.385669
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -47,7 +47,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.026s to configure plugins.
+LogStreaming: Display: Took  0.031s to configure plugins.
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -96,287 +96,341 @@ LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.19
 LogInit: Command Line:  
-LogInit: Base Directory: C:/Users/Armageddon/Documents/Unreal Projects/VRExperiment/Saved/StagedBuilds/WindowsNoEditor/Engine/Binaries/Win64/
+LogInit: Base Directory: C:/Users/Armageddon/Desktop/VRExperiment/VR-experiment/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 0
 LogStreaming: Display: Took  0.000s to delete old logs.
 LogInit: Presizing for max 2097152 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogStreaming: Display: Async Loading initialized: Event Driven Loader: true, Async Loading Thread: false
 LogInit: Object subsystem initialized
-[2018.07.28-21.31.54:948][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
-[2018.07.28-21.31.54:948][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsNoEditor]
-[2018.07.28-21.31.54:953][  0]LogInit: Computer: DESKTOP-NMIP91K
-[2018.07.28-21.31.54:953][  0]LogInit: User: Armageddon
-[2018.07.28-21.31.54:953][  0]LogInit: CPU Page size=4096, Cores=6
-[2018.07.28-21.31.54:953][  0]LogInit: High frequency timer resolution =3.609371 MHz
-[2018.07.28-21.31.54:953][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.07.28-21.31.54:953][  0]LogMemory: Platform Memory Stats for WindowsNoEditor
-[2018.07.28-21.31.54:953][  0]LogMemory: Process Physical Memory: 95.61 MB used, 95.61 MB peak
-[2018.07.28-21.31.54:953][  0]LogMemory: Process Virtual Memory: 107.98 MB used, 107.98 MB peak
-[2018.07.28-21.31.54:953][  0]LogMemory: Physical Memory: 5694.18 MB used,  10613.29 MB free, 16307.46 MB total
-[2018.07.28-21.31.54:953][  0]LogMemory: Virtual Memory: 4476.05 MB used,  10613.29 MB free, 134217728.00 MB total
-[2018.07.28-21.31.54:975][  0]LogInit: Using OS detected language (en-US).
-[2018.07.28-21.31.54:976][  0]LogInit: Using OS detected locale (en-US).
-[2018.07.28-21.31.54:976][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
-[2018.07.28-21.31.54:976][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
-[2018.07.28-21.31.55:002][  0]LogStreaming: Display: Took  0.026s to EndInitTextLocalization.
-[2018.07.28-21.31.55:019][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.07.28-21.31.55:019][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.07.28-21.31.55:022][  0]LogD3D11RHI: D3D11 adapters:
-[2018.07.28-21.31.55:077][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
-[2018.07.28-21.31.55:077][  0]LogD3D11RHI:       4043/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.07.28-21.31.55:079][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.07.28-21.31.55:079][  0]LogD3D11RHI:       0/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.07.28-21.31.55:079][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.07.28-21.31.55:084][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.07.28-21.31.55:084][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
-[2018.07.28-21.31.55:084][  0]LogWindows: EnumDisplayDevices:
-[2018.07.28-21.31.55:084][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
-[2018.07.28-21.31.55:085][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2018.07.28-21.31.55:085][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2018.07.28-21.31.55:085][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2018.07.28-21.31.55:085][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.07.28-21.31.55:085][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
-[2018.07.28-21.31.55:085][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.07.28-21.31.55:085][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.07.28-21.31.55:085][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
-[2018.07.28-21.31.55:117][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.07.28-21.31.55:117][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.07.28-21.31.55:118][  0]LogD3D11RHI: Async texture creation enabled
-[2018.07.28-21.31.55:141][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.07.28-21.31.55:196][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.07.28-21.31.55:196][  0]LogSlate: Using Freetype 2.6.0
-[2018.07.28-21.31.55:197][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.07.28-21.31.55:197][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.07.28-21.31.55:258][  0]LogAssetRegistry: FAssetRegistry took 0.0142 seconds to start up
-[2018.07.28-21.31.55:353][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 1 prioritized culture(s) in 0.006514 seconds
-[2018.07.28-21.31.55:356][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
-[2018.07.28-21.31.55:395][  0]LogNetVersion: VRExperiment , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 751238901)
-[2018.07.28-21.31.55:515][  0]LogMoviePlayer: Initializing movie player
-[2018.07.28-21.31.55:663][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.07.28-21.31.55:663][  0]LogOcInput: OculusInput pre-init called
-[2018.07.28-21.31.55:670][  0]LogUObjectArray: 32150 objects as part of root set at end of initial load.
-[2018.07.28-21.31.55:670][  0]LogUObjectAllocator: 5924816 out of 0 bytes used by permanent object pool.
-[2018.07.28-21.31.55:670][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.07.28-21.31.55:681][  0]LogEngine: Initializing Engine...
-[2018.07.28-21.31.55:682][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.07.28-21.31.55:694][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.07.28-21.31.55:694][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.07.28-21.31.55:798][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.07.28-21.31.55:813][  0]LogInit: FAudioDevice initialized.
-[2018.07.28-21.31.55:825][  0]LogInit: Texture streaming: Enabled
-[2018.07.28-21.31.55:835][  0]LogInit: Display: Game Engine Initialized.
-[2018.07.28-21.31.55:835][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.07.28-21.31.55:835][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.07.28-21.31.55:835][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.07.28-21.31.55:844][  0]LogInit: Display: Starting Game.
-[2018.07.28-21.31.55:844][  0]LogNet: Browse: /Game/VirtualRealityBP/Maps/MotionControllerMap?Name=Player
-[2018.07.28-21.31.55:844][  0]LogLoad: LoadMap: /Game/VirtualRealityBP/Maps/MotionControllerMap?Name=Player
-[2018.07.28-21.31.55:898][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_10 has elements that reference missing vertices. MaxVertex=25, NumVertices=0
-[2018.07.28-21.31.55:898][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_10 has elements that reference missing vertices. MaxVertex=40, NumVertices=0
-[2018.07.28-21.31.55:898][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_10 has elements that reference missing vertices. MaxVertex=45, NumVertices=0
-[2018.07.28-21.31.55:898][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_10 has elements that reference missing vertices. MaxVertex=54, NumVertices=0
-[2018.07.28-21.31.55:898][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_10 has elements that reference missing vertices. MaxVertex=54, NumVertices=0
-[2018.07.28-21.31.55:898][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_10 has elements that reference missing vertices. MaxVertex=146, NumVertices=0
-[2018.07.28-21.31.55:898][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_10 has elements that reference missing vertices. MaxVertex=158, NumVertices=0
-[2018.07.28-21.31.55:898][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_10 has elements that reference missing vertices. MaxVertex=158, NumVertices=0
-[2018.07.28-21.31.55:898][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_10 has elements that reference missing vertices. MaxVertex=158, NumVertices=0
-[2018.07.28-21.31.55:898][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_10 has elements that reference missing vertices. MaxVertex=158, NumVertices=0
-[2018.07.28-21.31.55:898][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_10 has elements that reference missing vertices. MaxVertex=158, NumVertices=0
-[2018.07.28-21.31.55:898][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_10 has elements that reference missing vertices. MaxVertex=193, NumVertices=0
-[2018.07.28-21.31.55:898][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_11 has elements that reference missing vertices. MaxVertex=221, NumVertices=0
-[2018.07.28-21.31.55:898][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_11 has elements that reference missing vertices. MaxVertex=221, NumVertices=0
-[2018.07.28-21.31.55:898][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_11 has elements that reference missing vertices. MaxVertex=353, NumVertices=0
-[2018.07.28-21.31.55:898][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_11 has elements that reference missing vertices. MaxVertex=353, NumVertices=0
-[2018.07.28-21.31.55:898][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_11 has elements that reference missing vertices. MaxVertex=353, NumVertices=0
-[2018.07.28-21.31.55:898][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_11 has elements that reference missing vertices. MaxVertex=353, NumVertices=0
-[2018.07.28-21.31.55:898][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_11 has elements that reference missing vertices. MaxVertex=353, NumVertices=0
-[2018.07.28-21.31.55:898][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_11 has elements that reference missing vertices. MaxVertex=289, NumVertices=0
-[2018.07.28-21.31.55:898][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_11 has elements that reference missing vertices. MaxVertex=289, NumVertices=0
-[2018.07.28-21.31.55:898][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_11 has elements that reference missing vertices. MaxVertex=289, NumVertices=0
-[2018.07.28-21.31.55:898][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_11 has elements that reference missing vertices. MaxVertex=301, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_11 has elements that reference missing vertices. MaxVertex=361, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_11 has elements that reference missing vertices. MaxVertex=373, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_11 has elements that reference missing vertices. MaxVertex=322, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_11 has elements that reference missing vertices. MaxVertex=322, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_11 has elements that reference missing vertices. MaxVertex=387, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_11 has elements that reference missing vertices. MaxVertex=395, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_11 has elements that reference missing vertices. MaxVertex=395, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_11 has elements that reference missing vertices. MaxVertex=395, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_11 has elements that reference missing vertices. MaxVertex=407, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_11 has elements that reference missing vertices. MaxVertex=407, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_11 has elements that reference missing vertices. MaxVertex=407, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_11 has elements that reference missing vertices. MaxVertex=407, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_11 has elements that reference missing vertices. MaxVertex=331, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_11 has elements that reference missing vertices. MaxVertex=435, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_11 has elements that reference missing vertices. MaxVertex=435, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_6 has elements that reference missing vertices. MaxVertex=207, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_6 has elements that reference missing vertices. MaxVertex=340, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_6 has elements that reference missing vertices. MaxVertex=344, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_6 has elements that reference missing vertices. MaxVertex=344, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_6 has elements that reference missing vertices. MaxVertex=344, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_6 has elements that reference missing vertices. MaxVertex=255, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_6 has elements that reference missing vertices. MaxVertex=255, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_6 has elements that reference missing vertices. MaxVertex=357, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_6 has elements that reference missing vertices. MaxVertex=369, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_6 has elements that reference missing vertices. MaxVertex=279, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_6 has elements that reference missing vertices. MaxVertex=383, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_6 has elements that reference missing vertices. MaxVertex=391, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_6 has elements that reference missing vertices. MaxVertex=399, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_6 has elements that reference missing vertices. MaxVertex=399, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_6 has elements that reference missing vertices. MaxVertex=399, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_6 has elements that reference missing vertices. MaxVertex=403, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_6 has elements that reference missing vertices. MaxVertex=403, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_6 has elements that reference missing vertices. MaxVertex=411, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_6 has elements that reference missing vertices. MaxVertex=411, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_6 has elements that reference missing vertices. MaxVertex=411, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_6 has elements that reference missing vertices. MaxVertex=411, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_6 has elements that reference missing vertices. MaxVertex=411, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_6 has elements that reference missing vertices. MaxVertex=411, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_6 has elements that reference missing vertices. MaxVertex=326, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_6 has elements that reference missing vertices. MaxVertex=430, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_6 has elements that reference missing vertices. MaxVertex=430, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_6 has elements that reference missing vertices. MaxVertex=441, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_6 has elements that reference missing vertices. MaxVertex=441, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_6 has elements that reference missing vertices. MaxVertex=441, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_7 has elements that reference missing vertices. MaxVertex=8, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_7 has elements that reference missing vertices. MaxVertex=30, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_7 has elements that reference missing vertices. MaxVertex=36, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_7 has elements that reference missing vertices. MaxVertex=60, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_7 has elements that reference missing vertices. MaxVertex=111, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_7 has elements that reference missing vertices. MaxVertex=111, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_7 has elements that reference missing vertices. MaxVertex=111, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_7 has elements that reference missing vertices. MaxVertex=188, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_7 has elements that reference missing vertices. MaxVertex=199, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_8 has elements that reference missing vertices. MaxVertex=12, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_8 has elements that reference missing vertices. MaxVertex=94, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_8 has elements that reference missing vertices. MaxVertex=102, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_8 has elements that reference missing vertices. MaxVertex=68, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_8 has elements that reference missing vertices. MaxVertex=123, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_8 has elements that reference missing vertices. MaxVertex=168, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_8 has elements that reference missing vertices. MaxVertex=168, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_8 has elements that reference missing vertices. MaxVertex=168, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_8 has elements that reference missing vertices. MaxVertex=168, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_8 has elements that reference missing vertices. MaxVertex=168, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_8 has elements that reference missing vertices. MaxVertex=174, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_8 has elements that reference missing vertices. MaxVertex=184, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_9 has elements that reference missing vertices. MaxVertex=17, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_9 has elements that reference missing vertices. MaxVertex=21, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_9 has elements that reference missing vertices. MaxVertex=127, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_9 has elements that reference missing vertices. MaxVertex=135, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_9 has elements that reference missing vertices. MaxVertex=131, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_9 has elements that reference missing vertices. MaxVertex=139, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_9 has elements that reference missing vertices. MaxVertex=154, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_9 has elements that reference missing vertices. MaxVertex=154, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_9 has elements that reference missing vertices. MaxVertex=162, NumVertices=0
-[2018.07.28-21.31.55:899][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_9 has elements that reference missing vertices. MaxVertex=180, NumVertices=0
-[2018.07.28-21.31.55:902][  0]LogAIModule: Creating AISystem for world MotionControllerMap
-[2018.07.28-21.31.55:902][  0]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.07.28-21.31.55:902][  0]LogLoad: Game class is 'GameModeBase'
-[2018.07.28-21.31.55:905][  0]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2018.07.28-17.31.55
-[2018.07.28-21.31.55:906][  0]LogWorld: Bringing up level for play took: 0.003027
-[2018.07.28-21.31.55:906][  0]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.07.28-21.31.55:911][  0]LogLoad: Took 0.066886 seconds to LoadMap(/Game/VirtualRealityBP/Maps/MotionControllerMap)
-[2018.07.28-21.31.55:944][  0]LogLoad: (Engine Initialization) Total time: 1.71 seconds
-[2018.07.28-21.31.56:000][  0]LogRenderer: Reallocating scene render targets to support 1920x1080 Format 26 NumSamples 1 (Frame:1).
-[2018.07.28-21.31.56:037][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.07.28-21.32.01:160][313]LogSlate: Request Window 'VRExperiment (64-bit, PCD3D_SM5) ' being destroyed
-[2018.07.28-21.32.01:189][313]LogSlate: Window 'VRExperiment (64-bit, PCD3D_SM5) ' being destroyed
-[2018.07.28-21.32.01:189][313]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.07.28-21.32.01:194][313]LogEngine: All Windows Closed
-[2018.07.28-21.32.01:194][313]LogWindows: FPlatformMisc::RequestExit(0)
-[2018.07.28-21.32.01:700][314]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2018.07.28-21.32.01:700][314]LogExit: Preparing to exit.
-[2018.07.28-21.32.01:700][314]LogMoviePlayer: Shutting down movie player
-[2018.07.28-21.32.01:707][314]LogExit: Game engine shut down
-[2018.07.28-21.32.01:730][314]LogExit: Object subsystem successfully closed.
-[2018.07.28-21.32.01:742][314]LogD3D11RHI: Shutdown
-[2018.07.28-21.32.01:742][314]LogD3D11RHI: CleanupD3DDevice
-[2018.07.28-21.32.01:753][314]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.07.28-21.32.01:753][314]LogModuleManager: Shutting down and abandoning module AutomationController (176)
-[2018.07.28-21.32.01:753][314]LogModuleManager: Shutting down and abandoning module AutomationWorker (174)
-[2018.07.28-21.32.01:754][314]LogModuleManager: Shutting down and abandoning module AIModule (172)
-[2018.07.28-21.32.01:754][314]LogModuleManager: Shutting down and abandoning module GameplayDebugger (171)
-[2018.07.28-21.32.01:754][314]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (168)
-[2018.07.28-21.32.01:754][314]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (166)
-[2018.07.28-21.32.01:754][314]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (164)
-[2018.07.28-21.32.01:754][314]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (162)
-[2018.07.28-21.32.01:754][314]LogModuleManager: Shutting down and abandoning module CharacterAI (160)
-[2018.07.28-21.32.01:754][314]LogModuleManager: Shutting down and abandoning module SessionServices (158)
-[2018.07.28-21.32.01:754][314]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (156)
-[2018.07.28-21.32.01:754][314]LogModuleManager: Shutting down and abandoning module MovieScene (154)
-[2018.07.28-21.32.01:754][314]LogModuleManager: Shutting down and abandoning module GeometryCache (152)
-[2018.07.28-21.32.01:754][314]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (150)
-[2018.07.28-21.32.01:754][314]LogModuleManager: Shutting down and abandoning module AnalyticsET (148)
-[2018.07.28-21.32.01:754][314]LogModuleManager: Shutting down and abandoning module ProfilerService (146)
-[2018.07.28-21.32.01:933][314]LogModuleManager: Shutting down and abandoning module TaskGraph (144)
-[2018.07.28-21.32.01:933][314]LogModuleManager: Shutting down and abandoning module SteamVRController (142)
-[2018.07.28-21.32.01:933][314]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (140)
-[2018.07.28-21.32.01:933][314]LogModuleManager: Shutting down and abandoning module OculusInput (138)
-[2018.07.28-21.32.01:933][314]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (136)
-[2018.07.28-21.32.01:933][314]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (134)
-[2018.07.28-21.32.01:933][314]LogModuleManager: Shutting down and abandoning module CableComponent (132)
-[2018.07.28-21.32.01:933][314]LogModuleManager: Shutting down and abandoning module AudioCapture (130)
-[2018.07.28-21.32.01:933][314]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (128)
-[2018.07.28-21.32.01:933][314]LogModuleManager: Shutting down and abandoning module AndroidPermission (126)
-[2018.07.28-21.32.01:933][314]LogModuleManager: Shutting down and abandoning module MediaCompositing (122)
-[2018.07.28-21.32.01:933][314]LogModuleManager: Shutting down and abandoning module LinearTimecode (120)
-[2018.07.28-21.32.01:933][314]LogModuleManager: Shutting down and abandoning module ImgMedia (118)
-[2018.07.28-21.32.01:936][314]LogModuleManager: Shutting down and abandoning module HTML5Networking (116)
-[2018.07.28-21.32.01:936][314]LogModuleManager: Shutting down and abandoning module DatasmithContent (114)
-[2018.07.28-21.32.01:936][314]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (112)
-[2018.07.28-21.32.01:936][314]LogModuleManager: Shutting down and abandoning module PhysXVehicles (110)
-[2018.07.28-21.32.01:936][314]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (108)
-[2018.07.28-21.32.01:936][314]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (106)
-[2018.07.28-21.32.01:936][314]LogModuleManager: Shutting down and abandoning module ActorSequence (104)
-[2018.07.28-21.32.01:936][314]LogModuleManager: Shutting down and abandoning module UdpMessaging (102)
-[2018.07.28-21.32.01:936][314]LogModuleManager: Shutting down and abandoning module TcpMessaging (100)
-[2018.07.28-21.32.01:936][314]LogModuleManager: Shutting down and abandoning module FacialAnimation (98)
-[2018.07.28-21.32.01:936][314]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (96)
-[2018.07.28-21.32.01:936][314]LogModuleManager: Shutting down and abandoning module LiveLink (94)
-[2018.07.28-21.32.02:569][314]LogModuleManager: Shutting down and abandoning module Paper2D (92)
-[2018.07.28-21.32.02:569][314]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (90)
-[2018.07.28-21.32.02:569][314]LogModuleManager: Shutting down and abandoning module WmfMedia (88)
-[2018.07.28-21.32.02:569][314]LogModuleManager: Shutting down and abandoning module PacketHandler (86)
-[2018.07.28-21.32.02:569][314]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (84)
-[2018.07.28-21.32.02:569][314]LogModuleManager: Shutting down and abandoning module MediaAssets (82)
-[2018.07.28-21.32.02:569][314]LogModuleManager: Shutting down and abandoning module Overlay (80)
-[2018.07.28-21.32.02:569][314]LogModuleManager: Shutting down and abandoning module UMG (78)
-[2018.07.28-21.32.02:569][314]LogModuleManager: Shutting down and abandoning module SlateReflector (76)
-[2018.07.28-21.32.02:569][314]LogModuleManager: Shutting down and abandoning module Slate (74)
-[2018.07.28-21.32.02:569][314]LogModuleManager: Shutting down and abandoning module MRMesh (72)
-[2018.07.28-21.32.02:569][314]LogModuleManager: Shutting down and abandoning module Messaging (70)
-[2018.07.28-21.32.02:569][314]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
-[2018.07.28-21.32.02:569][314]LogModuleManager: Shutting down and abandoning module XAudio2 (66)
-[2018.07.28-21.32.02:569][314]LogModuleManager: Shutting down and abandoning module Networking (64)
-[2018.07.28-21.32.02:569][314]LogModuleManager: Shutting down and abandoning module Core (62)
-[2018.07.28-21.32.02:569][314]LogModuleManager: Shutting down and abandoning module LevelSequence (60)
-[2018.07.28-21.32.02:569][314]LogModuleManager: Shutting down and abandoning module Media (58)
-[2018.07.28-21.32.02:575][314]LogModuleManager: Shutting down and abandoning module ImageWrapper (54)
-[2018.07.28-21.32.02:575][314]LogModuleManager: Shutting down and abandoning module InputCore (52)
-[2018.07.28-21.32.02:575][314]LogModuleManager: Shutting down and abandoning module PhysXCooking (50)
-[2018.07.28-21.32.02:575][314]LogModuleManager: Shutting down and abandoning module SteamVR (48)
-[2018.07.28-21.32.02:575][314]LogModuleManager: Shutting down and abandoning module OculusHMD (46)
-[2018.07.28-21.32.02:575][314]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
-[2018.07.28-21.32.02:575][314]LogModuleManager: Shutting down and abandoning module AppleARKit (42)
-[2018.07.28-21.32.02:575][314]LogModuleManager: Shutting down and abandoning module AugmentedReality (39)
-[2018.07.28-21.32.02:575][314]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (34)
-[2018.07.28-21.32.02:575][314]LogModuleManager: Shutting down and abandoning module HTTP (33)
-[2018.07.28-21.32.02:575][314]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.07.28-21.32.02:575][314]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B69F1CB6F-4508-E8D4-EB38-9082F431BE2E%7D&AppID=UEGame.Rocket.Release%7CDD38053345330CC2062A5CB208F0BA86%7CVirtual%20Reality%20BP%20Game%20Template&AppVersion=4.19.2-4033788%2B%2B%2BUE4%2BRelease-4.19&UserID=ANON-%7BD4BA4785-4E5D-7837-9BF7-C1A84AD668B3%7D%7C%7C&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.07.28-21.32.02:583][314]LogModuleManager: Shutting down and abandoning module SSL (32)
-[2018.07.28-21.32.02:583][314]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.07.28-21.32.02:583][314]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.07.28-21.32.02:583][314]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.07.28-21.32.02:583][314]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.07.28-21.32.02:583][314]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.07.28-21.32.02:583][314]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.07.28-21.32.02:583][314]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.07.28-21.32.02:583][314]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.07.28-21.32.02:583][314]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.07.28-21.32.02:583][314]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.07.28-21.32.02:583][314]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.07.28-21.32.02:583][314]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.07.28-21.32.02:583][314]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.07.28-21.32.02:583][314]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.07.28-21.32.02:585][314]LogExit: Exiting.
-[2018.07.28-21.32.02:586][314]Log file closed, 07/28/18 17:32:02
+[2018.07.30-20.24.11:055][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2018.07.30-20.24.11:055][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsNoEditor]
+[2018.07.30-20.24.11:063][  0]LogInit: Computer: DESKTOP-NMIP91K
+[2018.07.30-20.24.11:063][  0]LogInit: User: Armageddon
+[2018.07.30-20.24.11:063][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.07.30-20.24.11:063][  0]LogInit: High frequency timer resolution =3.609375 MHz
+[2018.07.30-20.24.11:063][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.07.30-20.24.11:063][  0]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2018.07.30-20.24.11:063][  0]LogMemory: Process Physical Memory: 95.71 MB used, 95.71 MB peak
+[2018.07.30-20.24.11:063][  0]LogMemory: Process Virtual Memory: 107.90 MB used, 107.90 MB peak
+[2018.07.30-20.24.11:063][  0]LogMemory: Physical Memory: 6814.54 MB used,  9492.93 MB free, 16307.46 MB total
+[2018.07.30-20.24.11:063][  0]LogMemory: Virtual Memory: 4475.98 MB used,  9492.93 MB free, 134217728.00 MB total
+[2018.07.30-20.24.11:440][  0]LogInit: Using OS detected language (en-US).
+[2018.07.30-20.24.11:440][  0]LogInit: Using OS detected locale (en-US).
+[2018.07.30-20.24.11:440][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2018.07.30-20.24.11:441][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
+[2018.07.30-20.24.11:462][  0]LogStreaming: Display: Took  0.022s to EndInitTextLocalization.
+[2018.07.30-20.24.11:478][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.07.30-20.24.11:478][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.07.30-20.24.11:481][  0]LogD3D11RHI: D3D11 adapters:
+[2018.07.30-20.24.11:535][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2018.07.30-20.24.11:535][  0]LogD3D11RHI:       4043/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.07.30-20.24.11:538][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.07.30-20.24.11:538][  0]LogD3D11RHI:       0/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.07.30-20.24.11:538][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.07.30-20.24.11:545][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.07.30-20.24.11:546][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2018.07.30-20.24.11:546][  0]LogWindows: EnumDisplayDevices:
+[2018.07.30-20.24.11:546][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2018.07.30-20.24.11:546][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.07.30-20.24.11:546][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.07.30-20.24.11:546][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.07.30-20.24.11:546][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.07.30-20.24.11:547][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2018.07.30-20.24.11:547][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.07.30-20.24.11:547][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.07.30-20.24.11:547][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2018.07.30-20.24.11:583][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.07.30-20.24.11:583][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.07.30-20.24.11:583][  0]LogD3D11RHI: Async texture creation enabled
+[2018.07.30-20.24.11:604][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.07.30-20.24.11:662][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.07.30-20.24.11:663][  0]LogSlate: Using Freetype 2.6.0
+[2018.07.30-20.24.11:664][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.30-20.24.11:664][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.30-20.24.11:721][  0]LogAssetRegistry: FAssetRegistry took 0.0113 seconds to start up
+[2018.07.30-20.24.11:827][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 1 prioritized culture(s) in 0.007441 seconds
+[2018.07.30-20.24.11:828][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2018.07.30-20.24.11:869][  0]LogNetVersion: VRExperiment , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 751238901)
+[2018.07.30-20.24.11:998][  0]LogMoviePlayer: Initializing movie player
+[2018.07.30-20.24.12:148][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.07.30-20.24.12:148][  0]LogOcInput: OculusInput pre-init called
+[2018.07.30-20.24.12:154][  0]LogUObjectArray: 32150 objects as part of root set at end of initial load.
+[2018.07.30-20.24.12:155][  0]LogUObjectAllocator: 5924816 out of 0 bytes used by permanent object pool.
+[2018.07.30-20.24.12:155][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.07.30-20.24.12:166][  0]LogEngine: Initializing Engine...
+[2018.07.30-20.24.12:168][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.07.30-20.24.12:180][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.30-20.24.12:180][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.30-20.24.12:285][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.07.30-20.24.12:355][  0]LogInit: FAudioDevice initialized.
+[2018.07.30-20.24.12:367][  0]LogInit: Texture streaming: Enabled
+[2018.07.30-20.24.12:375][  0]LogInit: Display: Game Engine Initialized.
+[2018.07.30-20.24.12:375][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.07.30-20.24.12:375][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.30-20.24.12:375][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.30-20.24.12:385][  0]LogInit: Display: Starting Game.
+[2018.07.30-20.24.12:385][  0]LogNet: Browse: /Game/VirtualRealityBP/Maps/MotionControllerMap?Name=Player
+[2018.07.30-20.24.12:385][  0]LogLoad: LoadMap: /Game/VirtualRealityBP/Maps/MotionControllerMap?Name=Player
+[2018.07.30-20.24.12:424][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_12 has elements that reference missing vertices. MaxVertex=3, NumVertices=0
+[2018.07.30-20.24.12:424][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_12 has elements that reference missing vertices. MaxVertex=51, NumVertices=0
+[2018.07.30-20.24.12:424][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_12 has elements that reference missing vertices. MaxVertex=55, NumVertices=0
+[2018.07.30-20.24.12:424][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_12 has elements that reference missing vertices. MaxVertex=63, NumVertices=0
+[2018.07.30-20.24.12:424][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_12 has elements that reference missing vertices. MaxVertex=95, NumVertices=0
+[2018.07.30-20.24.12:424][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_12 has elements that reference missing vertices. MaxVertex=107, NumVertices=0
+[2018.07.30-20.24.12:424][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_12 has elements that reference missing vertices. MaxVertex=135, NumVertices=0
+[2018.07.30-20.24.12:424][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_12 has elements that reference missing vertices. MaxVertex=243, NumVertices=0
+[2018.07.30-20.24.12:424][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_12 has elements that reference missing vertices. MaxVertex=131, NumVertices=0
+[2018.07.30-20.24.12:424][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_12 has elements that reference missing vertices. MaxVertex=155, NumVertices=0
+[2018.07.30-20.24.12:424][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_12 has elements that reference missing vertices. MaxVertex=235, NumVertices=0
+[2018.07.30-20.24.12:424][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_13 has elements that reference missing vertices. MaxVertex=7, NumVertices=0
+[2018.07.30-20.24.12:424][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_13 has elements that reference missing vertices. MaxVertex=15, NumVertices=0
+[2018.07.30-20.24.12:424][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_13 has elements that reference missing vertices. MaxVertex=67, NumVertices=0
+[2018.07.30-20.24.12:424][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_13 has elements that reference missing vertices. MaxVertex=83, NumVertices=0
+[2018.07.30-20.24.12:424][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_13 has elements that reference missing vertices. MaxVertex=99, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_13 has elements that reference missing vertices. MaxVertex=103, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_13 has elements that reference missing vertices. MaxVertex=151, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_13 has elements that reference missing vertices. MaxVertex=311, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_13 has elements that reference missing vertices. MaxVertex=599, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_14 has elements that reference missing vertices. MaxVertex=11, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_14 has elements that reference missing vertices. MaxVertex=171, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_14 has elements that reference missing vertices. MaxVertex=195, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_14 has elements that reference missing vertices. MaxVertex=279, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_14 has elements that reference missing vertices. MaxVertex=283, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_14 has elements that reference missing vertices. MaxVertex=287, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_14 has elements that reference missing vertices. MaxVertex=291, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_14 has elements that reference missing vertices. MaxVertex=295, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_14 has elements that reference missing vertices. MaxVertex=299, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_14 has elements that reference missing vertices. MaxVertex=303, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_14 has elements that reference missing vertices. MaxVertex=307, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_14 has elements that reference missing vertices. MaxVertex=315, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=19, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=23, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=27, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=35, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=39, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=43, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=47, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=71, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=75, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=79, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=87, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=91, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=111, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=115, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=119, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=143, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=255, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=123, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=127, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=147, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=139, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=231, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=259, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=343, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=355, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=359, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=363, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=367, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=371, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=375, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=379, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=383, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=387, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=391, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=395, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=399, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=411, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=423, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=435, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=447, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=459, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=471, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=483, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=495, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=507, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=403, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=415, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=427, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=439, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=451, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=463, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=475, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=487, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=499, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=511, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=407, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=419, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=431, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=443, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=455, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=467, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=479, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=491, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=503, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=515, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=519, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=523, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=527, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=531, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=535, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=539, NumVertices=0
+[2018.07.30-20.24.12:425][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=543, NumVertices=0
+[2018.07.30-20.24.12:426][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=547, NumVertices=0
+[2018.07.30-20.24.12:426][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=551, NumVertices=0
+[2018.07.30-20.24.12:426][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=555, NumVertices=0
+[2018.07.30-20.24.12:426][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=559, NumVertices=0
+[2018.07.30-20.24.12:426][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=563, NumVertices=0
+[2018.07.30-20.24.12:426][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=567, NumVertices=0
+[2018.07.30-20.24.12:426][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=571, NumVertices=0
+[2018.07.30-20.24.12:426][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=575, NumVertices=0
+[2018.07.30-20.24.12:426][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=579, NumVertices=0
+[2018.07.30-20.24.12:426][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=583, NumVertices=0
+[2018.07.30-20.24.12:426][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=587, NumVertices=0
+[2018.07.30-20.24.12:426][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=591, NumVertices=0
+[2018.07.30-20.24.12:426][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=595, NumVertices=0
+[2018.07.30-20.24.12:426][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=603, NumVertices=0
+[2018.07.30-20.24.12:426][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_15 has elements that reference missing vertices. MaxVertex=607, NumVertices=0
+[2018.07.30-20.24.12:426][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_16 has elements that reference missing vertices. MaxVertex=31, NumVertices=0
+[2018.07.30-20.24.12:426][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_16 has elements that reference missing vertices. MaxVertex=159, NumVertices=0
+[2018.07.30-20.24.12:426][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_16 has elements that reference missing vertices. MaxVertex=163, NumVertices=0
+[2018.07.30-20.24.12:426][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_16 has elements that reference missing vertices. MaxVertex=167, NumVertices=0
+[2018.07.30-20.24.12:426][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_16 has elements that reference missing vertices. MaxVertex=179, NumVertices=0
+[2018.07.30-20.24.12:426][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_16 has elements that reference missing vertices. MaxVertex=183, NumVertices=0
+[2018.07.30-20.24.12:426][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_16 has elements that reference missing vertices. MaxVertex=187, NumVertices=0
+[2018.07.30-20.24.12:426][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_16 has elements that reference missing vertices. MaxVertex=207, NumVertices=0
+[2018.07.30-20.24.12:426][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_16 has elements that reference missing vertices. MaxVertex=211, NumVertices=0
+[2018.07.30-20.24.12:426][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_16 has elements that reference missing vertices. MaxVertex=215, NumVertices=0
+[2018.07.30-20.24.12:426][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_16 has elements that reference missing vertices. MaxVertex=219, NumVertices=0
+[2018.07.30-20.24.12:426][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_16 has elements that reference missing vertices. MaxVertex=223, NumVertices=0
+[2018.07.30-20.24.12:426][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_16 has elements that reference missing vertices. MaxVertex=227, NumVertices=0
+[2018.07.30-20.24.12:426][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_16 has elements that reference missing vertices. MaxVertex=263, NumVertices=0
+[2018.07.30-20.24.12:426][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_16 has elements that reference missing vertices. MaxVertex=267, NumVertices=0
+[2018.07.30-20.24.12:426][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_16 has elements that reference missing vertices. MaxVertex=251, NumVertices=0
+[2018.07.30-20.24.12:426][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_16 has elements that reference missing vertices. MaxVertex=319, NumVertices=0
+[2018.07.30-20.24.12:426][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_16 has elements that reference missing vertices. MaxVertex=323, NumVertices=0
+[2018.07.30-20.24.12:426][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_16 has elements that reference missing vertices. MaxVertex=327, NumVertices=0
+[2018.07.30-20.24.12:426][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_16 has elements that reference missing vertices. MaxVertex=331, NumVertices=0
+[2018.07.30-20.24.12:426][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_16 has elements that reference missing vertices. MaxVertex=335, NumVertices=0
+[2018.07.30-20.24.12:426][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_16 has elements that reference missing vertices. MaxVertex=339, NumVertices=0
+[2018.07.30-20.24.12:426][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_16 has elements that reference missing vertices. MaxVertex=347, NumVertices=0
+[2018.07.30-20.24.12:426][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_16 has elements that reference missing vertices. MaxVertex=351, NumVertices=0
+[2018.07.30-20.24.12:426][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_17 has elements that reference missing vertices. MaxVertex=59, NumVertices=0
+[2018.07.30-20.24.12:426][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_17 has elements that reference missing vertices. MaxVertex=175, NumVertices=0
+[2018.07.30-20.24.12:426][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_17 has elements that reference missing vertices. MaxVertex=191, NumVertices=0
+[2018.07.30-20.24.12:426][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_17 has elements that reference missing vertices. MaxVertex=199, NumVertices=0
+[2018.07.30-20.24.12:426][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_17 has elements that reference missing vertices. MaxVertex=203, NumVertices=0
+[2018.07.30-20.24.12:426][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_17 has elements that reference missing vertices. MaxVertex=247, NumVertices=0
+[2018.07.30-20.24.12:426][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_17 has elements that reference missing vertices. MaxVertex=239, NumVertices=0
+[2018.07.30-20.24.12:426][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_17 has elements that reference missing vertices. MaxVertex=271, NumVertices=0
+[2018.07.30-20.24.12:426][  0]LogModelComponent: Model /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.ModelComponent_17 has elements that reference missing vertices. MaxVertex=275, NumVertices=0
+[2018.07.30-20.24.12:428][  0]LogAIModule: Creating AISystem for world MotionControllerMap
+[2018.07.30-20.24.12:428][  0]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.07.30-20.24.12:428][  0]LogLoad: Game class is 'GameModeBase'
+[2018.07.30-20.24.12:430][  0]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2018.07.30-16.24.12
+[2018.07.30-20.24.12:430][  0]LogWorld: Bringing up level for play took: 0.002211
+[2018.07.30-20.24.12:431][  0]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.07.30-20.24.12:433][  0]LogLoad: Took 0.048175 seconds to LoadMap(/Game/VirtualRealityBP/Maps/MotionControllerMap)
+[2018.07.30-20.24.12:462][  0]LogLoad: (Engine Initialization) Total time: 2.14 seconds
+[2018.07.30-20.24.12:503][  0]LogRenderer: Reallocating scene render targets to support 1920x1080 Format 26 NumSamples 1 (Frame:1).
+[2018.07.30-20.24.12:540][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.07.30-20.24.15:212][164]LogSlate: Request Window 'VRExperiment (64-bit, PCD3D_SM5) ' being destroyed
+[2018.07.30-20.24.15:239][164]LogSlate: Window 'VRExperiment (64-bit, PCD3D_SM5) ' being destroyed
+[2018.07.30-20.24.15:239][164]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.07.30-20.24.15:244][164]LogEngine: All Windows Closed
+[2018.07.30-20.24.15:244][164]LogWindows: FPlatformMisc::RequestExit(0)
+[2018.07.30-20.24.16:181][165]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.07.30-20.24.16:181][165]LogExit: Preparing to exit.
+[2018.07.30-20.24.16:181][165]LogMoviePlayer: Shutting down movie player
+[2018.07.30-20.24.16:189][165]LogExit: Game engine shut down
+[2018.07.30-20.24.16:208][165]LogExit: Object subsystem successfully closed.
+[2018.07.30-20.24.16:230][165]LogD3D11RHI: Shutdown
+[2018.07.30-20.24.16:230][165]LogD3D11RHI: CleanupD3DDevice
+[2018.07.30-20.24.16:245][165]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.07.30-20.24.16:245][165]LogModuleManager: Shutting down and abandoning module AutomationController (176)
+[2018.07.30-20.24.16:245][165]LogModuleManager: Shutting down and abandoning module AutomationWorker (174)
+[2018.07.30-20.24.16:245][165]LogModuleManager: Shutting down and abandoning module AIModule (172)
+[2018.07.30-20.24.16:245][165]LogModuleManager: Shutting down and abandoning module GameplayDebugger (171)
+[2018.07.30-20.24.16:245][165]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (168)
+[2018.07.30-20.24.16:245][165]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (166)
+[2018.07.30-20.24.16:245][165]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (164)
+[2018.07.30-20.24.16:245][165]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (162)
+[2018.07.30-20.24.16:245][165]LogModuleManager: Shutting down and abandoning module CharacterAI (160)
+[2018.07.30-20.24.16:245][165]LogModuleManager: Shutting down and abandoning module SessionServices (158)
+[2018.07.30-20.24.16:245][165]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (156)
+[2018.07.30-20.24.16:245][165]LogModuleManager: Shutting down and abandoning module MovieScene (154)
+[2018.07.30-20.24.16:245][165]LogModuleManager: Shutting down and abandoning module GeometryCache (152)
+[2018.07.30-20.24.16:245][165]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (150)
+[2018.07.30-20.24.16:245][165]LogModuleManager: Shutting down and abandoning module AnalyticsET (148)
+[2018.07.30-20.24.16:245][165]LogModuleManager: Shutting down and abandoning module ProfilerService (146)
+[2018.07.30-20.24.16:413][165]LogModuleManager: Shutting down and abandoning module TaskGraph (144)
+[2018.07.30-20.24.16:413][165]LogModuleManager: Shutting down and abandoning module SteamVRController (142)
+[2018.07.30-20.24.16:413][165]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (140)
+[2018.07.30-20.24.16:413][165]LogModuleManager: Shutting down and abandoning module OculusInput (138)
+[2018.07.30-20.24.16:413][165]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (136)
+[2018.07.30-20.24.16:413][165]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (134)
+[2018.07.30-20.24.16:413][165]LogModuleManager: Shutting down and abandoning module CableComponent (132)
+[2018.07.30-20.24.16:413][165]LogModuleManager: Shutting down and abandoning module AudioCapture (130)
+[2018.07.30-20.24.16:413][165]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (128)
+[2018.07.30-20.24.16:413][165]LogModuleManager: Shutting down and abandoning module AndroidPermission (126)
+[2018.07.30-20.24.16:413][165]LogModuleManager: Shutting down and abandoning module MediaCompositing (122)
+[2018.07.30-20.24.16:413][165]LogModuleManager: Shutting down and abandoning module LinearTimecode (120)
+[2018.07.30-20.24.16:413][165]LogModuleManager: Shutting down and abandoning module ImgMedia (118)
+[2018.07.30-20.24.16:414][165]LogModuleManager: Shutting down and abandoning module HTML5Networking (116)
+[2018.07.30-20.24.16:414][165]LogModuleManager: Shutting down and abandoning module DatasmithContent (114)
+[2018.07.30-20.24.16:414][165]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (112)
+[2018.07.30-20.24.16:414][165]LogModuleManager: Shutting down and abandoning module PhysXVehicles (110)
+[2018.07.30-20.24.16:414][165]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (108)
+[2018.07.30-20.24.16:414][165]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (106)
+[2018.07.30-20.24.16:414][165]LogModuleManager: Shutting down and abandoning module ActorSequence (104)
+[2018.07.30-20.24.16:414][165]LogModuleManager: Shutting down and abandoning module UdpMessaging (102)
+[2018.07.30-20.24.16:414][165]LogModuleManager: Shutting down and abandoning module TcpMessaging (100)
+[2018.07.30-20.24.16:414][165]LogModuleManager: Shutting down and abandoning module FacialAnimation (98)
+[2018.07.30-20.24.16:414][165]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (96)
+[2018.07.30-20.24.16:414][165]LogModuleManager: Shutting down and abandoning module LiveLink (94)
+[2018.07.30-20.24.17:052][165]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2018.07.30-20.24.17:052][165]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (90)
+[2018.07.30-20.24.17:052][165]LogModuleManager: Shutting down and abandoning module WmfMedia (88)
+[2018.07.30-20.24.17:052][165]LogModuleManager: Shutting down and abandoning module PacketHandler (86)
+[2018.07.30-20.24.17:052][165]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (84)
+[2018.07.30-20.24.17:052][165]LogModuleManager: Shutting down and abandoning module MediaAssets (82)
+[2018.07.30-20.24.17:052][165]LogModuleManager: Shutting down and abandoning module Overlay (80)
+[2018.07.30-20.24.17:053][165]LogModuleManager: Shutting down and abandoning module UMG (78)
+[2018.07.30-20.24.17:053][165]LogModuleManager: Shutting down and abandoning module SlateReflector (76)
+[2018.07.30-20.24.17:053][165]LogModuleManager: Shutting down and abandoning module Slate (74)
+[2018.07.30-20.24.17:053][165]LogModuleManager: Shutting down and abandoning module MRMesh (72)
+[2018.07.30-20.24.17:053][165]LogModuleManager: Shutting down and abandoning module Messaging (70)
+[2018.07.30-20.24.17:053][165]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2018.07.30-20.24.17:053][165]LogModuleManager: Shutting down and abandoning module XAudio2 (66)
+[2018.07.30-20.24.17:053][165]LogModuleManager: Shutting down and abandoning module Networking (64)
+[2018.07.30-20.24.17:053][165]LogModuleManager: Shutting down and abandoning module Core (62)
+[2018.07.30-20.24.17:053][165]LogModuleManager: Shutting down and abandoning module LevelSequence (60)
+[2018.07.30-20.24.17:053][165]LogModuleManager: Shutting down and abandoning module Media (58)
+[2018.07.30-20.24.17:059][165]LogModuleManager: Shutting down and abandoning module ImageWrapper (54)
+[2018.07.30-20.24.17:059][165]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2018.07.30-20.24.17:059][165]LogModuleManager: Shutting down and abandoning module PhysXCooking (50)
+[2018.07.30-20.24.17:059][165]LogModuleManager: Shutting down and abandoning module SteamVR (48)
+[2018.07.30-20.24.17:059][165]LogModuleManager: Shutting down and abandoning module OculusHMD (46)
+[2018.07.30-20.24.17:059][165]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2018.07.30-20.24.17:059][165]LogModuleManager: Shutting down and abandoning module AppleARKit (42)
+[2018.07.30-20.24.17:059][165]LogModuleManager: Shutting down and abandoning module AugmentedReality (39)
+[2018.07.30-20.24.17:059][165]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (34)
+[2018.07.30-20.24.17:059][165]LogModuleManager: Shutting down and abandoning module HTTP (33)
+[2018.07.30-20.24.17:059][165]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.07.30-20.24.17:059][165]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B78AEFEB3-416F-2CB4-8E63-6DA2F853A748%7D&AppID=UEGame.Rocket.Release%7CDD38053345330CC2062A5CB208F0BA86%7CVirtual%20Reality%20BP%20Game%20Template&AppVersion=4.19.2-4033788%2B%2B%2BUE4%2BRelease-4.19&UserID=ANON-%7BD4BA4785-4E5D-7837-9BF7-C1A84AD668B3%7D%7C%7C&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.07.30-20.24.17:078][165]LogModuleManager: Shutting down and abandoning module SSL (32)
+[2018.07.30-20.24.17:078][165]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.07.30-20.24.17:078][165]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.07.30-20.24.17:078][165]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.07.30-20.24.17:078][165]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.07.30-20.24.17:078][165]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.07.30-20.24.17:078][165]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.07.30-20.24.17:078][165]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.07.30-20.24.17:078][165]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.07.30-20.24.17:078][165]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.07.30-20.24.17:078][165]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.07.30-20.24.17:078][165]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.07.30-20.24.17:078][165]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.07.30-20.24.17:078][165]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.07.30-20.24.17:078][165]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.07.30-20.24.17:080][165]LogExit: Exiting.
+[2018.07.30-20.24.17:081][165]Log file closed, 07/30/18 16:24:17
